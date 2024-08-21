@@ -6,7 +6,7 @@ We will create a InstaSocial smart contract which has functions like Create Post
 solidity ^0.8.26
 
 ## Code
-```js
+```
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
@@ -55,12 +55,6 @@ contract InstaSocial is Ownable, ReentrancyGuard {
 }
 
 ```
-After creating this file we will have to deploy it using hardhat so we follow the following instructions:
-
-1. npm i
-2. npx hardhat node
-3. npx hardhat run --network localhost scripts/deploy.js
-5. npm run dev 
 
 After this, the project will be running on your localhost. 
 Typically at http://localhost:3000/
